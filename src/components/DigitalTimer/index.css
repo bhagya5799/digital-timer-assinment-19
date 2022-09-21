@@ -1,0 +1,101 @@
+/* Write your CSS here */
+.digital-clock-container{
+    background-image: linear-gradient(to right,  #defafe, #cffcf1, #cffcf1);
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    padding: 2rem;
+    
+}
+.digital-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 2rem;
+    gap: 4rem;
+
+}
+.timing-pause-container{
+    height: 20rem;
+    width: 20rem;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+    
+    
+    }
+.time-duration-result-text{
+      background-color: white;
+      height: 6.6rem;
+      width: 6.6rem;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-content: center;
+     border-radius: 50%;
+     margin-left: 1.9rem;
+     padding: 0.3rem;
+}
+.time{
+    font-size: 1.4rem;
+    margin-bottom: 0;
+}
+.running-passed{
+    color: black;
+    margin-top: 0;
+
+}
+.pass-reset-setTime-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pass-rest-container{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   /* gap: 1rem; */
+}
+button{
+    background-color: transparent;
+    border-width: 0;
+   
+}
+.pass-rest-container>button>img{
+   height: 2.2rem;
+   width: 2.2rem;
+}
+p{
+    font-weight: bold;
+}
+.strt-passed{
+    margin-right: 1rem;
+    font-size: 1rem;
+    
+}
+.setTimeLimit{
+    font-size: 0.8rem;
+}
+.set-time-limit-digit{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.max-25{
+    background-color: hsl(165, 61%, 51%);
+    height: 1.9rem;
+    width: 4rem;
+    /* font-size: 0.5rem; */
+    background-image: linear-gradient(to right,hsl(165, 53%, 51%), rgb(202, 202, 228));
+    font-weight: bold;
+    border-radius: 0.4rem;
+}
+.button{
+    display: flex;
+    align-items: center;
+}
