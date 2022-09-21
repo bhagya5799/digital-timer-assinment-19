@@ -86,7 +86,7 @@ class DigitalTimer extends Component {
 
   render() {
     const {isDigitalTimer, count} = this.state
-    const time = `${this.minute()} : ${this.seconds()}`
+    const time = `${this.minute()}:${this.seconds()}`
     this.onTimeEnd(time)
     return (
       <div className="digital-clock-container">
